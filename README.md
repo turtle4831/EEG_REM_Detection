@@ -10,3 +10,6 @@ uv tool install datalad
 on linux us: sudo apt-get install datalad
 
 both os can then use datalad install https://github.com/OpenNeuroDatasets/ds005555.git to install the dataset
+
+after that use this command to download the dependencies:
+pip install -r requirements.txt
